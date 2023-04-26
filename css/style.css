@@ -100,6 +100,11 @@ main h1{
     margin: 2.5rem 0 0 1.2rem;
 }
 
+.description{
+    margin: 1rem 0 0 1.2rem;
+    font-size: .8rem;
+}
+
 .recently-played{
     margin: 2rem 0 0 1rem;
 }
