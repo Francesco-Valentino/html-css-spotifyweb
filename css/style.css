@@ -73,3 +73,29 @@ button{
     font-weight: 600;
 }
 
+.main-nav{
+    margin-top: 1.3rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.main-nav ul{
+    justify-content: center;
+}
+
+.main-nav li{
+    padding: 0 1rem;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.album{
+    width: calc(100% / 6 - 1rem);
+    text-align: center;
+    flex-direction: column;
+}
+
+
+
