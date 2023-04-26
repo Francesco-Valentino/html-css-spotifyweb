@@ -33,6 +33,7 @@ header{
 main{
     width: calc(100% - 250px);
     background-color: aqua;
+    overflow-y: scroll;
 }
 
 footer{
