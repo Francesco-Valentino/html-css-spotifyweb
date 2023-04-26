@@ -26,6 +26,10 @@ body{
     text-transform: uppercase;
 }
 
+.txt-white{
+    color: white;
+}
+
 div.content-wrapper{
     height: calc(100vh - 100px);
 }
@@ -91,11 +95,31 @@ ul{
     font-weight: 600;
 }
 
+main h1{
+    font-size: 1.5rem;
+    margin: 2.5rem 0 0 1.2rem;
+}
+
+.recently-played{
+    margin: 2rem 0 0 1rem;
+}
+
 .album{
-    width: calc(100% / 6 - 1rem);
+    padding: 0 .3rem;
+    width: calc(100% / 6);
     text-align: center;
     flex-direction: column;
 }
 
+.album h3{
+    font-size: 1rem;
+    padding-top: 1rem;
+    font-weight: 800;
+}
+
+.album p{
+    font-size: .8rem;
+    padding-top: .65rem;
+}
 
 
