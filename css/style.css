@@ -37,7 +37,7 @@ header{
 
 main{
     width: calc(100% - 250px);
-    background-color: aqua;
+    background-color: #141922;
     overflow-y: scroll;
 }
 
@@ -55,3 +55,21 @@ footer{
     width: 30px;
     fill: #A3A3A3;
 }
+
+.banner{
+    height: 100px;
+    background-color: #080B12;
+    justify-content: end;
+}
+
+button{
+    border: white solid 1px;
+    border-radius: 20px;
+    color: white;
+    background: none;
+    height: 40px;
+    margin:1.8rem 1.5rem 0 0;
+    padding: .7rem 2.5rem;
+    font-weight: 600;
+}
+
