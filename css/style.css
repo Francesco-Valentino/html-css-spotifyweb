@@ -141,6 +141,10 @@ button{
     margin-top: 1.3rem;
 }
 
+.actions{
+    flex-wrap: wrap;
+}
+
 ul{
     list-style-type: none;
 }
