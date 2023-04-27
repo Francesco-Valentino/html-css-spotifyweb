@@ -54,7 +54,7 @@ footer{
 }
 
 header nav{
-    padding-top: 1.5rem;
+    padding-top: .7rem;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -62,6 +62,14 @@ header nav{
 .logo{
     width: 150px;
     padding-left: 1rem;
+    padding-bottom: .5rem;
+}
+
+.icon{
+    width: 50px;
+    padding-left: 1rem;
+    padding-bottom: .5rem;
+    display: none;
 }
 
 .header-glyph{
@@ -183,4 +191,13 @@ main h1{
     border-radius: 50%;
 }
 
+@media screen and (max-width: 576px){
+    .collapse{
+        display: none;
+    }
+
+    .icon{
+        display: block;
+    }
+}
 
