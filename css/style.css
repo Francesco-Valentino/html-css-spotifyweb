@@ -199,7 +199,7 @@ main h1{
 @media screen and (max-width: 992px){
     .album{
         margin: 0 .3rem;
-        width: calc(100% / 4 - .3rem);
+        width: calc(100% / 4 - 1.2rem);
         text-align: center;
         flex-direction: column;
     }
@@ -207,12 +207,22 @@ main h1{
     section.recently-played{
         flex-wrap: wrap;
     }
+
+    .album h3{
+        font-size: .9rem;
+        padding-top: .9rem;
+    }
+    
+    .album p{
+        font-size: .7rem;
+        padding-top: .6rem;
+    }
 }
 
 @media screen and (max-width: 768px){
     .album{
         margin: 0 .2rem;
-        width: calc(100% / 2 - .2rem);
+        width: calc(100% / 2 - .4rem);
     }
 }
 
@@ -231,6 +241,13 @@ main h1{
 
     .icon{
         display: block;
+        width: 40px;
+    }
+
+    i.fa-circle-down{
+        font-size: 20px;
+        padding-bottom: 1rem;
+        padding-left: .17rem;
     }
 }
 
