@@ -176,6 +176,7 @@ main h1{
 
 .album{
     margin: 0 .3rem;
+    padding-bottom: 1rem;
     width: calc(100% / 6 - .3rem);
     text-align: center;
     flex-direction: column;
@@ -194,6 +195,10 @@ main h1{
 
 .artist{
     border-radius: 50%;
+}
+
+.thumbnail{
+    width: 50px;
 }
 
 @media screen and (max-width: 992px){
