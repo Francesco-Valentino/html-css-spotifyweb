@@ -89,15 +89,26 @@ header li{
 }
 
 .last-header-col{
-    margin-top: 1.7rem;
+    margin-top: 1.5rem;
     padding: 0 0 .5rem 1rem;
+    font-size: .8rem;
+}
+
+.last-header-col hr{
+    margin: .3rem 1rem .3rem 0;
 }
 
 .propic{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
-    background-color: #282828;
+    background-color: #858585;
+    margin-right: .7rem;
+}
+
+.profile{
+    align-items: center;
+    font-size: .9rem;
 }
 
 .banner{
