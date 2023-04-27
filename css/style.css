@@ -37,6 +37,7 @@ div.content-wrapper{
 header{
     width: 250px;
     background-color: #000000;
+    font-weight: 600;
 }
 
 main{
@@ -52,13 +53,43 @@ footer{
     background-color: #282828;
 }
 
+header nav{
+    padding-top: 1.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .logo{
     width: 150px;
+    padding-left: 1rem;
 }
 
 .header-glyph{
     width: 30px;
     fill: #A3A3A3;
+    margin-right: .5rem;
+}
+
+.fa-square-plus{
+    font-size: 3rem;
+    padding-right: 1rem;
+}
+
+li.flex{
+    align-items: center;
+}
+
+header li{
+    padding: .25rem 1rem;
+    font-size: .8rem;
+}
+
+.slist{
+    padding: .5rem 1rem;
+}
+
+.propic{
+    width: 15px;
 }
 
 .banner{
