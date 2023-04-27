@@ -54,6 +54,7 @@ footer{
 }
 
 header nav{
+    height: 100%;
     padding-top: .7rem;
     flex-direction: column;
     justify-content: space-between;
@@ -191,9 +192,37 @@ main h1{
     border-radius: 50%;
 }
 
+@media screen and (max-width: 992px){
+    .album{
+        margin: 0 .3rem;
+        width: calc(100% / 4 - .3rem);
+        text-align: center;
+        flex-direction: column;
+    }
+
+    section.recently-played{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .album{
+        margin: 0 .2rem;
+        width: calc(100% / 2 - .2rem);
+    }
+}
+
 @media screen and (max-width: 576px){
     .collapse{
         display: none;
+    }
+
+    main{
+        width: calc(100% - 65px);;
+    }
+
+    .side-nav{
+        width: 65px;
     }
 
     .icon{
