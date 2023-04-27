@@ -72,7 +72,7 @@ header nav{
 
 .fa-square-plus{
     font-size: 3rem;
-    padding-right: 1rem;
+    padding-right: .7rem;
 }
 
 li.flex{
@@ -88,8 +88,16 @@ header li{
     padding: .5rem 1rem;
 }
 
+.last-header-col{
+    margin-top: 1.7rem;
+    padding: 0 0 .5rem 1rem;
+}
+
 .propic{
-    width: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #282828;
 }
 
 .banner{
