@@ -199,18 +199,33 @@ main h1{
 
 .mini-player{
     padding-left: 1rem;
+    width: 22.5vw;
 }
 
 .volume{
     padding-right: 1rem;
+    width: 18vw;
 }
 
 .thumbnail-wrapper{
     align-items: center;
+    width: 80%;
 }
 
 .thumbnail{
     width: 50px;
+}
+
+.thumbnail-wrapper p{
+    font-weight: 600;
+    font-size: .75rem;
+    padding-left: .5rem;
+}
+
+.thumbnail-glyphs{
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
 }
 
 .media-player{
@@ -218,10 +233,24 @@ main h1{
     align-items: center;
 }
 
+.bar-wrapper{
+    align-items: center;
+    width: 33vw;
+    justify-content: space-between;
+}
+
 .play-bar{
     width: calc(100vw /3);
     height: 5px;
     background-color: #5A5A5A;
+    border-radius: 2.5px;
+    margin: 0 .6rem;
+}
+
+.progress-bar{
+    width: 20%;
+    height: 100%;
+    background-color: white;
     border-radius: 2.5px;
 }
 
@@ -232,7 +261,30 @@ main h1{
 }
 
 .time{
-    margin-bottom: 1.5rem;
+    font-size: .6rem;
+}
+
+.vol-bar{
+    width: 150px;
+    height: 5px;
+    background-color: #5A5A5A;
+    border-radius: 2.5px;
+    margin-left: .5rem;
+}
+
+.current-vol{
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    border-radius: 2.5px;
+    justify-content: flex-end;
+}
+
+.current-span{
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
 }
 
 @media screen and (max-width: 992px){
