@@ -94,6 +94,14 @@ header li{
     font-size: .8rem;
 }
 
+header li:hover{
+    filter: brightness(200%);
+}
+
+.hover-white:hover{
+    color: white;
+}
+
 .slist{
     padding: .5rem 1rem;
 }
@@ -136,6 +144,11 @@ button{
     margin:1.8rem 1.5rem 0 0;
     padding: .7rem 2.5rem;
     font-weight: 600;
+    transition: .1s linear;
+}
+
+button:hover{
+    transform: scale(1.1);
 }
 
 .main-nav{
