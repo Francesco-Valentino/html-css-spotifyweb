@@ -199,7 +199,7 @@ main h1{
 
 .mini-player{
     padding-left: 1rem;
-    width: 22.5vw;
+    width: 230px;
 }
 
 .volume{
@@ -213,7 +213,7 @@ main h1{
 
 .thumbnail-wrapper{
     align-items: center;
-    width: 80%;
+    /*width: 80%;*/
 }
 
 .thumbnail{
@@ -279,6 +279,7 @@ main h1{
 .volume{
     align-items: center;
     justify-content: space-between;
+    width: 230px;
 }
 
 .vol-bar{
